@@ -156,7 +156,6 @@ class ListenMessage:
                     current_time = datetime.datetime.now()
                     difference = current_time - self._lastarrival
 
-                    # TODO: Check why I am using a 10000 there lol
                     second_difference = difference.seconds
                     micros_difference = difference.microseconds / 10000
 
